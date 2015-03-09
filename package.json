@@ -1,0 +1,27 @@
+{
+  "name": "nunjucks-resolve-loader",
+  "version": "1.0.0",
+  "description": "Loader for Nunjucks using Node resolve algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/lordofthelake/nunjucks-resolve-loader"
+  },
+  "keywords": [
+    "nunjucks",
+    "resolve",
+    "loader"
+  ],
+  "author": "Michele Piccirillo (http://github.com/lordofthelake)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordofthelake/nunjucks-resolve-loader/issues"
+  },
+  "homepage": "https://github.com/lordofthelake/nunjucks-resolve-loader",
+  "dependencies": {
+    "resolve": "^1.1.5"
+  }
+}
