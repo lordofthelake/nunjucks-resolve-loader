@@ -12,3 +12,5 @@ ResolveLoader.prototype.getSource = function (name) {
     path: path
   };
 };
+
+module.exports = ResolveLoader;
