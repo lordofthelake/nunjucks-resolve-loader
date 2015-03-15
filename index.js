@@ -1,12 +1,12 @@
 var fs = require('fs');
-var resolve = require('resolve');
 
-var ResolveLoader = function (options) {
+var ResolveLoader = function (targetRequire, options) {
+  this.require = targetRequire;
   this.options = options;
 };
 
 ResolveLoader.prototype.getSource = function (name) {
-  var path = resolve.sync(name, this.options);
+  var path = this.require.resolve(name);
   return {
     src: fs.readFileSync(path),
     path: path
